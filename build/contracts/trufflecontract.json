@@ -1,0 +1,117 @@
+{
+  "contractName": "trufflecontract",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/trufflecontract.sol\":\"trufflecontract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/trufflecontract.sol\":{\"keccak256\":\"0x5db0322aaaef0cb9a112f75feaf6820b4bf6fc58e2d342fc5e7164bfcce1a04a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d094a7c34e96b326e070be7e9ad6a33a4d175537be8ff6f1937362e2697fcffe\",\"dweb:/ipfs/QmS3cm952Kt8f2AsCDEMvcxUr1DNvkyZzsL7fHxHqNJSYF\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220227c8dde191ffef1268ed5d3d9aa702f882441c14fc5857de3d0549e76af3f0f64736f6c634300080e0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220227c8dde191ffef1268ed5d3d9aa702f882441c14fc5857de3d0549e76af3f0f64736f6c634300080e0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "67:57:1:-:0;;;96:26;;;;;;;;;;67:57;;;;;;",
+  "deployedSourceMap": "67:57:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\n contract trufflecontract {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "C:\\Users\\the_d\\Desktop\\Summer\\contracts\\trufflecontract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/trufflecontract.sol",
+    "exportedSymbols": {
+      "trufflecontract": [
+        39
+      ]
+    },
+    "id": 40,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "trufflecontract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 39,
+        "linearizedBaseContracts": [
+          39
+        ],
+        "name": "trufflecontract",
+        "nameLocation": "76:15:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 37,
+              "nodeType": "Block",
+              "src": "117:5:1",
+              "statements": []
+            },
+            "id": 38,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:2:1"
+            },
+            "returnParameters": {
+              "id": 36,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "117:0:1"
+            },
+            "scope": 39,
+            "src": "96:26:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 40,
+        "src": "67:57:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:93:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.14+commit.80d49f37.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-06-13T14:16:09.573Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
